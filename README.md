@@ -25,11 +25,22 @@
 * cmake .. -DCMAKE_BUILD_TYPE=Debug
 * make clean
 * make -j8
-* ./bin/kirikinux
+* (Running failed, not good) ./bin/kirikinux
 
 ## How to build for Android
 * (TODO) no implementation
 
+## weibo record
+```
+我用xubuntu 26编译运行Kirikinux2的效果。如果需要改成cmake或者makefile编译可能还需要一些时间，反正我也不急 ​​​
+
+Kirikinux2研究，我可能要等很久以后，或者可能不研究这个代码（看情况），因为我被一些问题卡住了，没跑通
+（不知道是不是gcc编译器的问题）。我去找找有没有别的整活 ​​​
+
+Kirikinux研究。最终版了，现在可以用makefile编译运行成功，但用cmake则仍然不行（可以编译但运行失败），
+费解，可能是因为混合了c++11和c++14和c++17的编译参数导致的，也可能是其他原因，但为什么只能
+用make编译运行？还是没搞懂原因，不过我不研究这个了，等以后有时间再考虑 ​​​
+```
 
 
 
