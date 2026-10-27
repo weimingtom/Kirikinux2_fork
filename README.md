@@ -15,7 +15,7 @@
 * make test
 * ./kirikinux
 
-## (Not recommanded, Running failed) How to build for Xubuntu 20.04 64bit VirtualBox by CMake
+## (Not recommended, Running failed) How to build for Xubuntu 20.04 64bit VirtualBox by CMake
 * sudo apt update
 * sudo apt install lftp make cmake gcc g++ pkg-config gedit
 * sudo apt install libfreetype-dev libglfw3-dev libglew-dev libsdl2-dev libopenal-dev libonig-dev libvorbis-dev libogg-dev libopusfile-dev libopus-dev libonig-dev libarchive-dev libturbojpeg-dev libjpeg-dev libopencv-dev libgtk-3-dev liblz4-dev libwebp-dev
