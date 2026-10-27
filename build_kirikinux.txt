@@ -1,0 +1,26 @@
+  cmake/Kr2ThirdParty.cmake:12 (pkg_check_modules)
+
+
+
+===
+
+xubuntu2604, vbox
+
+sudo apt update
+sudo apt install lftp make cmake gcc g++ pkg-config gedit
+sudo apt install libfreetype-dev libglfw3-dev libglew-dev libsdl2-dev libopenal-dev libonig-dev libvorbis-dev libogg-dev libopusfile-dev libopus-dev libonig-dev libarchive-dev libturbojpeg-dev libjpeg-dev libopencv-dev libgtk-3-dev liblz4-dev libwebp-dev
+
+cd Kirikinux2-main/
+mkdir build
+cd build/
+cmake .. -DCMAKE_BUILD_TYPE=Debug
+
+make -j8
+./bin/kirikinux
+
+
+====
+->xubuntu 200464 vbox
+CMAKE_BUILD_TYPE:STRING=RelWithDebInfo
+====
+
