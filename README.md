@@ -4,7 +4,31 @@
 ## Ref
 * https://github.com/Comet387/Kirikinux2/tree/f91e4f80e825e955e3a1306bac22a3dcc47fc89e
 
+## (Not recommanded, Running failed) How to build for Xubuntu 20.04 64bit VirtualBox by Make
+* sudo apt update
+* sudo apt install lftp make cmake gcc g++ pkg-config gedit
+* sudo apt install libfreetype-dev libglfw3-dev libglew-dev libsdl2-dev libopenal-dev libonig-dev libvorbis-dev libogg-dev libopusfile-dev libopus-dev libonig-dev libarchive-dev libturbojpeg-dev libjpeg-dev libopencv-dev libgtk-3-dev liblz4-dev libwebp-dev
+* (TODO, able to need less apt install)
+* cd Kirikinux2_fork/
+* make clean
+* make -j8
+* make test
+* ./kirikinux
 
+## (Not recommanded, Running failed) How to build for Xubuntu 20.04 64bit VirtualBox by CMake
+* sudo apt update
+* sudo apt install lftp make cmake gcc g++ pkg-config gedit
+* sudo apt install libfreetype-dev libglfw3-dev libglew-dev libsdl2-dev libopenal-dev libonig-dev libvorbis-dev libogg-dev libopusfile-dev libopus-dev libonig-dev libarchive-dev libturbojpeg-dev libjpeg-dev libopencv-dev libgtk-3-dev liblz4-dev libwebp-dev
+* cd Kirikinux2_fork/
+* mkdir build
+* cd build/
+* cmake .. -DCMAKE_BUILD_TYPE=Debug
+* make clean
+* make -j8
+* ./bin/kirikinux
+
+## How to build for Android
+* (TODO) no implementation
 
 
 
